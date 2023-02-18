@@ -1,0 +1,56 @@
+{
+  "name": "flix-clone",
+  "version": "1.0.0",
+  "description": "A Netflix Clone for User Registration and User Login",
+  "main": "./server.js",
+  "scripts": {
+    "start": "node ./dist/server.js",
+    "dev": "nodemon ./src/server.ts",
+    "build": "tsc -p ."
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "TypeScript",
+    "ESLint",
+    "Prettier",
+    "MySQL",
+    "Sequelize"
+  ],
+  "author": "ZWS",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/compression": "^1.7.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/morgan": "^1.9.3",
+    "@types/node": "^17.0.18",
+    "@types/nodemailer": "^6.4.4",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "tsc-watch": "^4.6.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "helmet": "^5.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.2",
+    "sequelize": "^6.16.1"
+  }
+}
